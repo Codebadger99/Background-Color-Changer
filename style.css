@@ -1,0 +1,25 @@
+.btn{
+    position: relative;
+    top: 300px;
+    left: 500px;
+    background-color: green;
+    padding: 30px 30px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    width: 20%;
+}
+
+.btn:hover{
+    background-color: white;
+}
+
+/* mobile device*/
+@media(max-width:480px){
+    .btn{
+        position: relative;
+        left: 200px;
+        bottom: 100px;
+    }
+}
+
